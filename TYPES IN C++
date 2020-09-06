@@ -1,0 +1,25 @@
+//1st program
+#include<iostream>
+using namespace std;
+int main(){
+char A;
+int b;
+float c;
+double d;
+cout<<"for char values the size is:"<<sizeof(A)<<endl;
+cout<<"for integer values the size is:"<<sizeof(b)<<endl;
+cout<<"for float  values the size is:"<<sizeof(c)<<endl;
+cout<<"for double  values the size is:"<<sizeof(d)<<endl;
+ 
+return 0;
+}
+//2nd program
+#include<iostream>
+using namespace std;
+int main(){
+float a,b;
+cout<<"enter two multiplicants \n"<<endl;
+cin>>a>>endl;
+cin>>b>>endl;
+cout<<"the multiplication of"<<a<<"and"<<b "is:"<<a+b<<endl;
+}
